@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kalkulator">
+
+    <TextView
+        android:id="@+id/var_aa"
+        android:layout_width="115dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="#6C6262"
+        android:text="@string/var_aa"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/var_bb"
+        android:layout_width="116dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="15dp"
+        android:background="#504949"
+        android:lineSpacingExtra="48sp"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintStart_toEndOf="@+id/var_aa"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/licz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="22dp"
+        android:text="licz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/radioButtonPlus"
+        android:layout_width="92dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="21dp"
+        android:text="Plus"
+        app:layout_constraintEnd_toStartOf="@+id/radioButtonMinus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/var_aa" />
+
+    <CheckBox
+        android:id="@+id/radioButtonMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:text="Minus"
+        app:layout_constraintEnd_toStartOf="@+id/radioButtonMultiple"
+        app:layout_constraintStart_toEndOf="@+id/radioButtonPlus"
+        app:layout_constraintTop_toBottomOf="@+id/var_bb" />
+
+    <CheckBox
+        android:id="@+id/radioButtonMultiple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="60dp"
+        android:text="Mnożenie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radioButtonMinus"
+        app:layout_constraintTop_toBottomOf="@+id/var_bb" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

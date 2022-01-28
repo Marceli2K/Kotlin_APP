@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/layout/activity_add_to_list_of_trash.xml" value="0.33" />
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/layout/activity_add_to_trash_list.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/layout/activity_get_contacts.xml" value="0.25" />
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/layout/activity_google_search.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/layout/activity_image_viewer.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/layout/activity_kalkulator.xml" value="0.5" />
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/layout/activity_list_of_trash.xml" value="0.2" />
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/layout/activity_main.xml" value="0.2907608695652174" />
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/layout/activity_main2.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/marceli/Downloads/LAB1/LAB1/app/src/main/res/layout/trash_list.xml" value="0.333786231884058" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

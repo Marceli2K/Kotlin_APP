@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LAB1</string>
+    <string name="textview">Wiadomość</string>
+    <string name="label">Nowy Tekst Widoku</string>
+    <string name="button">Kliknij mnie</string>
+    <string name="editText">Wpisz wiadomość</string>
+    <string name="checkbox">Zaznacz by nie zmieniać tekstu</string>
+    <string name="radio1">Noc</string>
+    <string name="radio2">Dzień</string>
+    <string name="append">Tryb dołączania</string>
+    <string name="reset">Aplikacja zresetowana</string>
+    <string name="clear">CLEAR</string>
+    <string name="togglebutton">SAVE</string>
+    <string name="trash_list">Lista dostępnych śmieci</string>
+    <string name="trash_list_add">Dodaj</string>
+    <string name="trash_list_rem">Usuń</string>
+    <string name="go_to_trash">Lista śmieci</string>
+    <string name="wiadomosc">Wiadomość</string>
+    <string name="textview2">TextView</string>
+    <string name="wy_lij">Wyślij</string>
+    <string name="nast_pny">Następny</string>
+    <string name="email">email</string>
+    <string name="dodaj_nowy_rodzaj_miecia">Dodaj nowy rodzaj śmiecia</string>
+    <string name="nazwa">Nazwa</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="search">Search</string>
+    <string name="var_aa">0</string>
+
+</resources>
